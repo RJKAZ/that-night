@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image overlap example
+
+    </title>
+    <style>
+      .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #000000;
+        width: 25%;
+      }
+      .image2 {
+        position: absolute;
+        top: 0;
+        left: 300px;
+        border: 1px solid #000000;
+        width: 25%
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <img class="image1" src="images/art1.png" />
+      <img class="image2" src="images/art2.png" />
+    </div>
+  </body>
+</html>
