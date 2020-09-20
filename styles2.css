@@ -13,6 +13,7 @@
     
     margin-left: auto;
     margin-right: auto;
+    z-index:2;
 }
 
 .play {
@@ -30,6 +31,7 @@
     animation-play-state: running;
     position: relative;
     opacity: 0.5;
+    z-index:1;
   }
   
   @keyframes stretch {
@@ -46,7 +48,7 @@
     }
     100% {
       transform: scale(5);
-      background-color: darkblue;
+      background-color: darkgoldenrod;
       border-radius: 100%;
     }
   }
@@ -60,4 +62,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .landing {
+    position: absolute;
   }
