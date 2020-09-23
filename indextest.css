@@ -1,0 +1,21 @@
+img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+h1, h2, h3, p, a {
+  position: absolute;
+  right: 8em;
+  bottom: 8em;
+  font-family: 'Montserrat';
+  
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  padding: 8em;
+  
+}

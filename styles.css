@@ -19,8 +19,20 @@ body {
     height: 100vh;
   }
   
+  h1, h2, h3, p, a {
+    position: absolute;
+    right: 8em;
+    bottom: 10em;
+    font-family: 'Montserrat';
+    
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    padding: 4em;
+  }
  
   
+  /*
   h1, h2, h3, p {
     position: absolute;
     top: 2em;
@@ -31,5 +43,6 @@ body {
     width: auto;
     line-height: .8em;
     padding: .2em;
-    float: right;
+    
   }
+  */
